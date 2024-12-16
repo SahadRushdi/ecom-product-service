@@ -15,7 +15,9 @@ public class ProductServiceImpl implements ProductService {
         return Arrays.asList(
                 new Product("Bun", "A Tasty Bun", "BUN"),
                 new Product("Cheeseburger", "A Tasty Cheeseburger", "CHEESEBURGER"),
-                new Product("French Fries", "A Tasty French Fries", "FRIES")
+                new Product("French Fries", "A Tasty French Fries", "FRIES"),
+                new Product("Pizza", "A Tasty Pizza", "PIZZA"),
+                new Product("Soup", "A Tasty Soup", "SOUP")
         );
     }
 }
